@@ -1,0 +1,14 @@
+api_platform:
+    title: Inshop CRM
+    version: v3.0.1
+    collection:
+        pagination:
+            client_items_per_page: true
+            client_enabled: true
+
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']
+    patch_formats:
+        json: ['application/merge-patch+json']
+    swagger:
+        versions: [3]
